@@ -1,0 +1,123 @@
+<!-- I use chatGPT to assist in creating and building some code. This includes the scaling of the navigation bar buttons, the frosted background frame, and its transformation animations. I have made improvements and adjustments to the code as necessary -->
+
+<!-- All the music on the website is provided through the content in this link: https://pixabay.com/zh/music/search/%e6%ac%a2%e5%bf%ab%e7%9a%84%e8%83%8c%e6%99%af%e9%9f%b3%e4%b9%90/ -->
+
+<!-- background video is provided in this  link: https://pan.baidu.com/s/1ReuyZAyj-O4INsje3foORQ   （7777） -->
+
+<!-- BUTTON CODE HTTPS: https://b23.tv/VB123fP -->
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Week 4</title>
+<!-- 主要样式 -->
+<link rel="stylesheet" href="./css/font.css">
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/button.css">
+<!-- 缩放动画样式 -->
+<link rel="stylesheet" href="./css/box_style.css">
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+    <div class="navbar_content">
+        <a href="index.html" class="navbar_text">
+            HOME 
+        </a>
+    </div>
+</nav>
+<div class="background_gif"></div>
+
+<!-- content -->
+<div class="content">
+
+    <div class="week_part_title">
+        <h1 class="week4_T">WEEK 4</h1>
+    </div> 
+
+  <div class="box">
+    <section class="week_part">
+        <h2>exercise</h2>
+        <h3>The black shapes follow the mouse</h3>
+        <img src="./image/week4_1.jpg" alt="week4_1">
+        <h3>The red shapes follow the mouse</h3>
+        <img src="./image/week4_2.jpg">
+        <h3>CIRCLE FOLLOWS MOUSE</h3>
+        <img src="./image/week4_3.jpg">
+        <img src="./image/week4_4.jpg">
+        <img src="./image/week4_5.GIF">
+        <h3>DOODLE WITH LINE + ON MOUSECLICK CLEAR 
+            BACKGROUND WITH RANDOM COLOUR</h3>
+        <p>I drew a portrait of a cat.</p>
+        <img src="./image/week4_6.jpg">
+        <h3>ASHLEA'S RANDODRAW</h3>
+        <img src="./image/week4_7.jpg">
+        <h3>Dice Rolling Game</h3>
+        <p>a 6-sided die and a 10-sided die to draw shapes on grid paper according to specified rules.</p>
+        <h4>The rules are as follows</h4>
+        <p>First Throw: Roll the 6-sided die to get a number, each number corresponds to a different shape.</p>
+        <p>• 1: Circle<br>• 2: Square<br>• 3: Line<br>• 4: Triangle<br>• 5: Rectangle<br>• 6: Ellipse</p>
+        <p>Second Throw: Fill color rule (Roll a die ranging from 0 to 9)</p>
+        <p>• 0-3: Red<br>• 4-7: Blue<br>• 8-9: Black</p>
+        <p>Third Throw: Border color rule (Roll a die ranging from 0 to 9)</p>
+        <p>• 0-4: No border<br>• 5-9: Black border</p>
+        <p>Fourth and Fifth Throws respectively determine the x and y axes (-0 to 9).</p>
+        <p>(If the sum of x and y is greater than 7, reroll the dice.)</p>
+        <p>Shape size: Size (0 = 10)</p>
+        <img src="./image/week4_8.jpg">
+
+    </section>
+  </div>
+
+  <div class="box">
+    <section class="week_part">
+        <h2>home work</h2>
+        <h3>Dice Rolling Game in p5</h3>
+        <p>I translated the rules of the dice rolling game my team made into p5 code.</p>
+        <a href="https://gdcxgfjhdj.github.io/Dice-game/"><div class="link_1">
+            link: https://gdcxgfjhdj.github.io/Dice-game/
+        </div></a>
+        <img src="./image/week4_9.jpg">
+        <img src="./image/week4_10.jpg">
+        <h3>Adapted from a dice game</h3>
+        <p>This is a screenshot of my experiment showcase, implemented by modifying a dice game. I removed the generation of other shapes except circles, and changed the command from clicking the mouse to roll the dice to randomly generating circles on the entire page.
+            Additionally, I added white text in the center of the screen. At first, the white text without borders blends into the white background, making it invisible. Only when continuously appearing colorful circles gradually cover the entire screen does the white text become visible.</p>
+        <a href="https://gdcxgfjhdj.github.io/circle.github.io/"><div class="link_1">
+            link :  gdcxgfjhdj.github.io/circle.github.io/
+        </div></a>
+        <img src="./image/week4_11.jpg">
+        <img src="./image/week4_12.GIF">
+        
+    </section>
+  </div>
+
+  <div class="box">
+    <section class="week_part">
+        <h2>question</h2>
+        <h3>What is generative art?</h3>
+        <p>Generative art refers to any artistic practice in which an artist creates a process, such as a set of natural language rules, a computer program, a computing machine, or other procedural invention, and then sets it in motion. This autonomy results in or leads to a completed work of art.</p>
+        <h3>What is p5?</h3>
+        <p>p5.js is a JavaScript library that makes creative coding accessible for artists, designers, educators, and beginners. It's based on the core principles of Processing, a popular platform for creative coding and visual arts. With p5.js, users can easily create interactive graphics, animations, and generative art projects using simple syntax and a friendly community.</p>  
+
+        
+    </section>
+  </div>
+</div>
+
+<footer>
+    <div class="footer_T">
+        BY JIMA
+    </div> 
+</footer>
+
+<audio controls autoplay>
+    <source src="./image/background_music_3.mp3" type="audio/mpeg">
+</audio>
+
+<!-- JavaScript -->
+<script src="./JS/scaling_animation.js"></script>
+<script src="./JS/navbar.js"></script>
+</body>
+</html>
